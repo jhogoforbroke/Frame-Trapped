@@ -99,7 +99,9 @@ header h2 {
 }
 
 #downloads {
+  margin: 25px auto;
   margin-bottom: 40px;
+  width: 630px;
 }
 
 a.button {
@@ -117,8 +119,8 @@ a.button {
   padding: 12px 8px 12px 8px;
   display: block;
   float: left;
-  width: 179px;
-  margin-right: 14px;  
+  width: 180px;
+  margin-right: 15px;  
   background: #fdfdfd; /* Old browsers */
   background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
@@ -357,7 +359,7 @@ footer a:hover {
     padding-bottom: 10px;
   }
   #downloads {
-    margin-bottom: 25px;
+    padding: 25px auto;
   }
   #download-zip, #download-tar-gz {
     display: none;
