@@ -90,7 +90,7 @@ header h2 {
 }
 
 .inner {
-  width: 620px;
+  width: 720px;
   margin: 0 auto;
 }
 
@@ -231,12 +231,9 @@ td {
   font-weight: 300;
 }
 
-form {
-  background: #f2f2f2;
-  padding: 20px;
-  
+form { 
+  padding: 20px;   
 }
-
 
 /* GENERAL ELEMENT TYPE STYLES */
 
@@ -306,6 +303,13 @@ ol li {
 
 dl dt {
   color: #303030;
+}
+
+#donate-form{ 
+  padding: 20px;
+  height: 60px;
+  width: 160px;
+  margin: 0 auto;
 }
 
 footer {
